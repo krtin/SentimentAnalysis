@@ -1,0 +1,28 @@
+Model,CM,Accuracy,Precision,Recall,F1,Name,Type,Size
+svm.LinearSVC(),"[[ 265.   56.   67.]
+ [  40.  239.   71.]
+ [  69.   80.  284.]]",0.67292912041,0.672958421685,0.673911993025,0.673058629317,Unigram Tertiary,CV,1171
+svm.LinearSVC(),"[[ 64.  12.  20.]
+ [  6.  53.  23.]
+ [ 10.  27.  78.]]",0.665529010239,0.673571685232,0.663756333216,0.665828359575,Unigram Tertiary,Test,293
+Model,CM,Accuracy,Precision,Recall,F1,Name,Type,Size
+svm.LinearSVC(),"[[ 244.   79.   65.]
+ [  83.  182.   85.]
+ [  76.   67.  290.]]",0.611443210931,0.606476004981,0.60620397927,0.606063151269,Bigram Tertiary,CV,1171
+svm.LinearSVC(),"[[ 55.  25.  16.]
+ [ 17.  43.  22.]
+ [ 21.  12.  82.]]",0.61433447099,0.604077060932,0.60345012961,0.603582373322,Bigram Tertiary,Test,293
+Model,CM,Accuracy,Precision,Recall,F1,Name,Type,Size
+"mysvm('bigramorigc3',60)","[[ 275.   36.   77.]
+ [  47.  212.   91.]
+ [  78.   79.  276.]]",0.651579846285,0.652479888145,0.650630189077,0.651226827325,Tree Kernel Tertiary,CV,1171
+"mysvm('bigramorigc3',60)","[[ 62.  13.  21.]
+ [ 12.  51.  19.]
+ [ 18.  23.  74.]]",0.638225255973,0.636414249016,0.637087604572,0.636470991183,Tree Kernel Tertiary,Test,293
+Model,CM,Accuracy,Precision,Recall,F1,Name,Type,Size
+"mysvm('bigrammodc3',10)","[[ 272.   33.   83.]
+ [  42.  204.  104.]
+ [  70.   68.  295.]]",0.658411614005,0.66307299579,0.655060457744,0.657457572988,Tree Kernel Mod Tertiary,CV,1171
+"mysvm('bigrammodc3',10)","[[ 61.  15.  20.]
+ [  8.  48.  26.]
+ [ 15.  18.  82.]]",0.651877133106,0.653136022928,0.644608666195,0.647210650778,Tree Kernel Mod Tertiary,Test,293

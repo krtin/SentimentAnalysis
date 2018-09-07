@@ -1,0 +1,20 @@
+Model,CM,Accuracy,Precision,Recall,F1,Name,Type,Size
+svm.LinearSVC(),"[[ 308.   75.]
+ [  66.  283.]]",0.80737704918,0.80701610253,0.80753289892,0.807152106039,Unigram Binary,CV,732
+svm.LinearSVC(),"[[ 83.  18.]
+ [ 24.  59.]]",0.771739130435,0.770967350407,0.766312775856,0.767788461538,Unigram Binary,Test,184
+Model,CM,Accuracy,Precision,Recall,F1,Name,Type,Size
+svm.LinearSVC(),"[[ 265.  118.]
+ [  93.  256.]]",0.71174863388,0.712357721148,0.712715180261,0.711705052609,Bigram Binary,CV,732
+svm.LinearSVC(),"[[ 68.  33.]
+ [ 23.  60.]]",0.695652173913,0.696207018788,0.698079446499,0.695075757576,Bigram Binary,Test,184
+Model,CM,Accuracy,Precision,Recall,F1,Name,Type,Size
+"mysvm('bigramorig',60)","[[ 315.   68.]
+ [  72.  277.]]",0.808743169399,0.808426019548,0.808075291583,0.808226355777,Tree Kernel Binary,CV,732
+"mysvm('bigramorig',60)","[[ 88.  13.]
+ [ 21.  62.]]",0.815217391304,0.817003058104,0.80913754026,0.811452682339,Tree Kernel Binary,Test,184
+Model,CM,Accuracy,Precision,Recall,F1,Name,Type,Size
+"mysvm('bigrammod',30)","[[ 320.   63.]
+ [  68.  281.]]",0.821038251366,0.820801366579,0.820333365752,0.820528801074,Tree Kernel Mod Binary,CV,732
+"mysvm('bigrammod',30)","[[ 86.  15.]
+ [ 19.  64.]]",0.815217391304,0.814587100663,0.811284742932,0.81253745655,Tree Kernel Mod Binary,Test,184
